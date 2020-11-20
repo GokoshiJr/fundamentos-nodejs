@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "npx prettier --write conceptos/",
-    "dev": "npx nodemon conceptos/entorno.js"
+    "clean": "npx prettier --write conceptos/ async/"
   },
   "repository": {
     "type": "git",
