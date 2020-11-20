@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "npx prettier --write conceptos/"
+    "clean": "npx prettier --write conceptos/",
+    "dev": "npx nodemon conceptos/entorno.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/GokoshiJr/fundamentos-nodejs#readme",
   "devDependencies": {
+    "nodemon": "^2.0.6",
     "prettier": "^2.2.0"
   }
 }
