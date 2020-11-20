@@ -1,0 +1,23 @@
+{
+  "name": "fundamentos-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npx prettier --write conceptos/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GokoshiJr/fundamentos-nodejs.git"
+  },
+  "keywords": [],
+  "author": "Julio Gonzalez <julioagonzalez18@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GokoshiJr/fundamentos-nodejs/issues"
+  },
+  "homepage": "https://github.com/GokoshiJr/fundamentos-nodejs#readme",
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  }
+}
